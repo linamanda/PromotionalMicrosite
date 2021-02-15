@@ -1,0 +1,107 @@
+/* Reference: https://www.w3schools.com/css/css3_gradients.asp */
+body {
+  background-image: linear-gradient(#190130, #6d0a90, #00b9ff, #ffffff);
+}
+
+.albumTitle {
+  text-align: center;
+  /* Reference: https://www.w3schools.com/css/css_align.asp*/
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: medium solid white;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #1C1525;
+  color: white;
+  font-family: "Lucida Console", monospace;
+  font-size: 500%;
+}
+
+#albumTop {
+  margin-top: 5%;
+}
+
+#mainContent {
+  color: #FFD265;
+  font-family: "Arial", sans-serif;
+  font-size: 300%;
+  margin-top: 10%;
+}
+
+#contentL1 {
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+
+#contentL2 {
+  position: relative;
+  text-align: right;
+  margin-top: 20%;
+  width: 80%;
+}
+
+#contentL3 {
+  position: relative;
+  left: 20%;
+  margin-top: 20%;
+  width: 80%;
+}
+
+#contentL4 {
+  position: relative;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#contentL5 {
+  position: relative;
+  text-align: right;
+  right: 10%;
+  margin-top: 20%;
+  width: 80%;
+}
+
+#contentL6 {
+  position: relative;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#albumBottom {
+  margin-top: 10%;
+}
+
+#promoLine {
+  font-family: "Arial", sans-serif;
+  font-size: 150%;
+  text-align: center;
+}
+#promoLinks{
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#promoVideo {
+  text-align: center;
+}
+
+#footerImg {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
